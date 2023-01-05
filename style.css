@@ -3,52 +3,165 @@
     padding: 0;
     font-family: sans-serif;
 }
-
     /* header area start  */
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.808)), url('image/banner.jpg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.877)), url('image/banner.jpg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 900px;
-    margin: auto;
-    position: absolute;
-    background-color: antiquewhite;
+    margin-top: 0px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .banner-title{
     text-align: center;
-    margin-top: 270px;
+    margin-top: 155px;
     font-size: 70px;
     color: white;
 }
 .banner-description{
     text-align: center;
     line-height: 1.5;
-    padding: 25px 0;
+    padding: 35px 0;
     font-size: 23px;
     color: white;
 }
 .primary-button{
     font-size: 25px;
+    font-weight: 700;
     padding: 25px 40px;
     color: white;
     background-color: #FF5959;
     border-radius: 10px;
     border: 0;
-    margin-bottom: 270px; 
+    margin-bottom: 200px; 
 }
     /* header area end  */
-
-.section-one{
-
-}
+    /* section-one start  */
 .donate-container{
-
+    margin-top: 100px;
+    text-align: center;
 }
-.onate-title{
-
+.donate-title{
+    font-size: 65px;
 }
 .donate-description{
-    color: aliceblue;
+    text-align: center;
+    line-height: 1.5;
+    padding: 35px 0;
+    font-size: 25px;
+    color: #a0a0a0;
+}
+.donate-tk-container{
+    text-align: center;
+}
+.donat-amount{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.donat-amount .amount{
+    margin-top: 40px;
+    background-color: #fafafa;
+    margin: 0px 18px;
+    border-radius: 10px;
+    padding: 40px 35px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #b8b8b8;
+    text-align: center;
+}
+.amount-2{
+    margin-top: 50px;
+    background-color: #fae9e9;
+    margin: 0px 18px;
+    border-radius: 10px;
+    padding: 40px 35px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #a0a0a0;
+    text-align: center;
+    border: 2px solid red;
+}
+.other{
+    text-align: center;
+    font-size: 25px;
+    color: #a0a0a0;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+hr{
+    width: 1040px;
+    margin: auto;
+    height: 1px;
+    background-color: #b8b8b8;
+    border: none;  
+}
+.primary-button{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px 40px;
+    color: white;
+    background-color: #FF5959;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 40px;
+}
+    /* section area two start  */
+.section-two{
+    width: 1300px;
+    margin: auto;
+}
+.our-donate-main{
+    text-align: center;
+}
+.donate-plan{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.plan-description{
+    font-size: 25px;
+    color: #a0a0a0;
+}
+.family-container-main{
+    display: flex;
+}
+.family-container{
+    width: 900px;
+    background-color: #e5f0f5c5;
+    padding: 55px 20px;
+    margin: 0px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.family-container-2{
+    width: 900px;
+    background-color: #ffeef3;
+    padding: 55px 20px;
+    margin: 0px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.family-container-3{
+    width: 900px;
+    background-color: #feffe9c5;
+    padding: 55px 25px;
+    margin: 0px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.family-container-main #icon{
+    font-size: 70px;
+}
+.food{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.food-description{
+    font-size: 25px;
+    color: #a0a0a0;
 }
