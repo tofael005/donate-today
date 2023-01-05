@@ -111,6 +111,7 @@ hr{
     border: 0;
     margin-top: 40px;
 }
+    /* section-one end  */
     /* section area two start  */
 .section-two{
     width: 1300px;
@@ -164,4 +165,133 @@ hr{
 .food-description{
     font-size: 25px;
     color: #a0a0a0;
+}
+    /* section area two end  */
+    /* section area three  start  */
+.section-three{
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+}
+.section-thre-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 210px;   
+}
+.thire{
+    text-align: left;
+}
+.image img{
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+}
+.brif-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+.lorem{
+    font-size: 25px;
+    color: #a0a0a0;
+    text-align: left;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+    /* section area three end  */
+    /* section area four start  */
+.section-four{
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+    margin-top: 300px;
+}
+.section-four-main{
+    display: flex;
+    justify-content: space-between;  
+}
+.four{
+    text-align: left;
+}
+.image1 img{
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+}
+.brif-title1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+.lorem{
+    font-size: 25px;
+    color: #a0a0a0;
+    text-align: left;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+    /* section area four end  */
+    /* section area five start  */
+.section-five{
+    margin-top: 200px;
+    text-align: center;
+}
+.five-title{
+    font-size: 70px;
+}
+.five-description{
+    font-size: 25px;
+    color: #a0a0a0;
+    padding: 50px 0px;
+}
+.email-section{
+    width: 1300px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+input{
+    align-items: center;
+    margin-top: 56px;
+    width: 500px;
+    height: 45px;
+    padding: 2px;
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: #b8b8b8;
+    border: none;
+    color: #a0a0a0;
+}
+.subscribe{
+    margin-top: 15px;
+    font-size: 20px;
+    width: 150px;
+    padding: 13px;
+    margin-right: 10px;
+    background-color: #FF5959;
+    border: none;
+}
+    /* section area five end  */
+    /* section area six start  */
+.section-six{
+    width: 100%;
+    height: 250px;
+    background-color: #050408;
+}
+.be-humble{
+    text-align: center;
+    margin-top: 100px;
+}
+.humble{
+    padding-top: 90px;
+    font-size: 40px;
+    font-style: italic;
+    color: red;
+}
+.gonna{
+    padding: 25px;
+    color: aquamarine;
+    font-weight: 300;
+    font-size: 20px;
 }
