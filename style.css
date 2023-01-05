@@ -41,6 +41,7 @@ header{
     margin-bottom: 200px; 
 }
     /* header area end  */
+    
     /* section-one start  */
 .donate-container{
     margin-top: 100px;
@@ -112,6 +113,7 @@ hr{
     margin-top: 40px;
 }
     /* section-one end  */
+
     /* section area two start  */
 .section-two{
     width: 1300px;
@@ -167,6 +169,7 @@ hr{
     color: #a0a0a0;
 }
     /* section area two end  */
+
     /* section area three  start  */
 .section-three{
     width: 1300px;
@@ -199,6 +202,7 @@ hr{
     margin-bottom: 15px;
 }
     /* section area three end  */
+
     /* section area four start  */
 .section-four{
     width: 1300px;
@@ -231,6 +235,7 @@ hr{
     margin-bottom: 10px;
 }
     /* section area four end  */
+
     /* section area five start  */
 .section-five{
     margin-top: 200px;
@@ -244,6 +249,9 @@ hr{
     color: #a0a0a0;
     padding: 50px 0px;
 }
+    /* section area five end  */
+
+    /* section area six start  */
 .email-section{
     width: 1300px;
     height: 150px;
@@ -273,6 +281,7 @@ input{
     border: none;
 }
     /* section area five end  */
+
     /* section area six start  */
 .section-six{
     width: 100%;
@@ -295,3 +304,4 @@ input{
     font-weight: 300;
     font-size: 20px;
 }
+    /* section area six end  */
