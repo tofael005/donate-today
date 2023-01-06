@@ -38,7 +38,13 @@ header{
     background-color: #FF5959;
     border-radius: 10px;
     border: 0;
-    margin-bottom: 200px; 
+    margin-bottom: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.primary-button:hover{
+    background-color: rgba(209, 234, 255, 0.623);
+    color: orangered;
 }
     /* header area end  */
     
@@ -75,6 +81,11 @@ header{
     font-weight: bold;
     color: #b8b8b8;
     text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.donat-amount .amount:hover{
+    box-shadow: 4px 4px 4px #0000004b;
 }
 .amount-2{
     margin-top: 50px;
@@ -87,6 +98,10 @@ header{
     color: #a0a0a0;
     text-align: center;
     border: 2px solid red;
+    transition: 0.5s;
+}
+.amount-2:hover{
+    box-shadow: 4px 4px 4px #0000004b;
 }
 .other{
     text-align: center;
@@ -140,6 +155,11 @@ hr{
     margin: 0px 20px;
     margin-top: 50px;
     border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.family-container:hover{
+    box-shadow: 4px 4px 4px #0000004b;
 }
 .family-container-2{
     width: 900px;
@@ -148,6 +168,11 @@ hr{
     margin: 0px 20px;
     margin-top: 50px;
     border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.family-container-2:hover{
+    box-shadow: 4px 4px 4px #0000004b;
 }
 .family-container-3{
     width: 900px;
@@ -156,6 +181,11 @@ hr{
     margin: 0px 20px;
     margin-top: 50px;
     border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.family-container-3:hover{
+    box-shadow: 4px 4px 4px #0000004b;
 }
 .family-container-main #icon{
     font-size: 70px;
